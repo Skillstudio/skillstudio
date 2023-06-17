@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:black;
+    color: white;
+    margin: 0;
+  }
+  
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .logo-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+   
+  }
+  
+  .logo-container img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .main-container {
+    text-align: center;
+  }
+  
+  h1 {
+    color:white;
+    font-size: 3em;
+    margin-top: 0;
+  }
+  
+  
+  p {
+    font-size: 1.5em;
+    margin-top: 0;
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .skill-btn {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color:white;
+    color: #333;
+    font-size: 2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .skill-btn:hover {
+    background-color: #333;
+    color: white;
+  }
+ 
+.logo-container{
+    font-size: large;
+}
+footer{
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+          }
+
+h2{
+  font-weight: bold;
+  font-style: italic;
+}

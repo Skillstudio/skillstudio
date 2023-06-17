@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-wrap: wrap;
+            background-color: black
+            ;
+		}
+		.text-section {
+			flex: 1;
+			background-color: black;
+			padding: 50px;
+			box-sizing: border-box;
+			font-size: 16px;
+			line-height: 1.5;
+            color: white;
+		}
+		.form-section {
+			flex: 1;
+			background-color: black;
+            color: white;
+			padding: 50px;
+			box-sizing: border-box;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+		form {
+			width: 100%;
+			max-width: 500px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 20px;
+		}
+		label {
+			font-weight: bold;
+		}
+		input[type="text"],
+		input[type="email"],
+		textarea {
+			width: 100%;
+			padding: 10px;
+			border-radius: 5px;
+			border: 1px solid #ccc;
+		}
+		textarea {
+			resize: vertical;
+			height: 150px;
+		}
+		button[type="submit"] {
+			padding: 10px 20px;
+			border-radius: 5px;
+			border: none;
+			background-color: #4CAF50;
+			color: white;
+			cursor: pointer;
+			 transition: background-color 0.3s ease;
+		}
+		button[type="submit"]:hover {
+			background-color: #2E8B57;
+		}
+		
+        
+	</style>
+</head>
+<body>
+	
+	<div class="text-section">
+		<h1>About The Negotiation course</h1>
+		<p> We are pleased to present our negotiation course, which is intended to advance your career and help you meet your professional objectives. Any industry requires strong negotiating abilities, so developing them can help you advance professionally. Our course was put together by professionals with a wealth of knowledge in contract negotiations and successful business closings.
+
+			Strategic planning, dispute resolution, and effective communication are just a few of the many subjects we address in our negotiating course. Professionals in a variety of fields, including sales, marketing, finance, and human resources, should find it excellent. Our course can assist you in acquiring the skills you need to succeed, whether you are just starting your career or hoping to move up to a higher position.
+			
+			You will study the craft of persuasion, negotiation strategies, and how to handle tricky business transactions in a negotiation course. Additionally, you will learn how to handle challenging conversations, win the trust of your clients, and create win-win scenarios. For you to master negotiation skills, this course is brimming with useful advice, case studies, and interactive exercises.
+
+			Additionally, because our course is entirely online, you can study whenever it's convenient for you. You will receive the course by email after making a purchase, and you can access it whenever you want, wherever you are. You may begin learning with our course right away after making a purchase, and it is compatible with all devices.
+			
+			Simply get in touch with us to purchase our negotiation course, and we'll walk you through the steps.Our customer service team is available to answer any queries you may have, and we provide affordable pricing. We are sure that our negotiation course will assist you in advancing your career and achieving your job objectives.</p>
+	</div>
+	<div class="form-section">
+		<form class="contact_form" action="#">
+			<label for="name">Name:</label>
+			<input type="text" class="name" name="name" placeholder="Enter your name" required>
+			<label for="email">Email:</label>
+			<input type="email" class="email" name="email" placeholder="Enter your email address" required>
+			<label for="message">Message:</label>
+			<textarea class="msg" name="message" placeholder="Enter your message here" required></textarea>
+			<button type="submit">Send</button>
+		</form>
+	</div>
+	
+</body>
+
+</html>

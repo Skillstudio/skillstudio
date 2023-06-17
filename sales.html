@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-wrap: wrap;
+            background-color: black
+            ;
+		}
+		.text-section {
+			flex: 1;
+			background-color:black;
+			padding: 50px;
+			box-sizing: border-box;
+			font-size: 19px;
+			line-height: 1.5;
+            color: white;
+			text-decoration-style: dotted;
+		}
+		.form-section {
+			flex: 1;
+			background-color:black;
+            color: white;
+			padding: 50px;
+            
+			box-sizing: border-box;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+		form {
+			width: 100%;
+			max-width: 500px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 20px;
+		}
+		label {
+			font-weight: bold;
+		}
+		input[type="text"],
+		input[type="email"],
+		textarea {
+			width: 100%;
+			padding: 10px;
+			border-radius: 5px;
+			border: 1px solid #ccc;
+		}
+		textarea {
+			resize: vertical;
+			height: 150px;
+		}
+		button[type="submit"] {
+			padding: 10px 20px;
+			border-radius: 5px;
+			border: none;
+			background-color: #4CAF50;
+			color: white;
+			cursor: pointer;
+			 transition: background-color 0.3s ease;
+		}
+		button[type="submit"]:hover {
+			background-color: #2E8B57;
+		}
+        
+	</style>
+</head>
+<body>
+	
+	<div class="text-section">
+		<h1>Welcome To Our Sales Course</h1>
+			<p>We are happy to provide our thorough sales course to website visitors. After paying for the course, you will have access to a plethora of knowledge that will aid in your development as a knowledgeable salesperson. You will receive the course via email so that you can get started learning right away. The training covers a wide range of worthwhile topics, such as methods for prospecting, developing customer relationships, overcoming objections, and completing agreements. We are sure that the information and abilities you acquire from this course will enable you to boost your sales performance and accomplish your objectives.
+
+				Simply get in touch with us if you're interested in buying the course, and we'll be happy to help. Our staff is available at all times We are here to help you succeed in your sales career and are happy to answer any questions you may have about the program. So don't put it off any longer; seize this fantastic chance to learn from industry leaders and get started on your path to being a great sales professional right away.
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+                </p>
+	</div>
+	<div class="form-section">
+		<form action="index.php" method="post">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" placeholder="Enter your name" required>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" placeholder="Enter your email address" required>
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" placeholder="Enter your message here" required></textarea>
+			<button type="submit">Send</button>
+		</form>
+	</div>
+</body>
+
+</html>
+
+
+
+
+

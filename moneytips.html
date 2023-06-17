@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-wrap: wrap;
+            background-color: black
+            ;
+		}
+		.text-section {
+			flex: 1;
+			background-color: black;
+			padding: 50px;
+			box-sizing: border-box;
+			font-size: 16px;
+			line-height: 1.5;
+            color: white;
+		}
+		.form-section {
+			flex: 1;
+			background-color: black;
+            color: white;
+			padding: 50px;
+			box-sizing: border-box;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+		form {
+			width: 100%;
+			max-width: 500px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 20px;
+		}
+		label {
+			font-weight: bold;
+		}
+		input[type="text"],
+		input[type="email"],
+		textarea {
+			width: 100%;
+			padding: 10px;
+			border-radius: 5px;
+			border: 1px solid #ccc;
+		}
+		textarea {
+			resize: vertical;
+			height: 150px;
+		}
+		button[type="submit"] {
+			padding: 10px 20px;
+			border-radius: 5px;
+			border: none;
+			background-color: #4CAF50;
+			color: white;
+			cursor: pointer;
+			 transition: background-color 0.3s ease;
+		}
+		button[type="submit"]:hover {
+			background-color: #2E8B57;
+		}
+        
+	</style>
+</head>
+<body>
+	
+	<div class="text-section">
+		<h1>About The Money Tips course</h1>
+		<p>We are happy to present our Money Tips course, which is intended to assist you in improving your money management and achieving your financial objectives. Whether you are a novice or a seasoned expert, this course is perfect for anybody wishing to increase their financial literacy.
+
+			A variety of subjects are covered in our Money Tips course, such as budgeting, saving, investing, and debt management. Enrolling in our course will provide you the knowledge and skills you need to make wise financial decisions and reach financial freedom.
+			
+			
+			You can study at your own pace and convenience because our Money Tips course is fully online. You will receive the course by email after making a purchase, and you can access it whenever you want, wherever you are. You can start learning right away after making your payment, and the course is compatible with all devices.
+
+			Simply get in touch with us to purchase our Money Tips course, and we'll walk you through the steps. Our customer service team is available to answer any queries you may have, and we provide affordable pricing. We are certain that our Money Tips course will assist you in reaching your financial objectives and enhancing your employment prospects.
+			
+			We appreciate you taking a look at our Money Tips course and hope to hear from you soon.
+			</p>
+	</div>
+	<div class="form-section">
+		<form action="mailto:skillstudio28@gmail.com" method="post">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" placeholder="Enter your name" required>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" placeholder="Enter your email address" required>
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" placeholder="Enter your message here" required></textarea>
+			<button type="submit">Send</button>
+		</form>
+	</div>
+</body>
+
+</html>
+
